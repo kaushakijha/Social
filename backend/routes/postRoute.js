@@ -9,4 +9,5 @@ postRouter.post("/create",isAuthenticated ,createPost);
 postRouter.get("/create",isAuthenticated,createPost)
 postRouter.get("/create",isAuthenticated,getAllPosts)
 postRouter.get("/create",isAuthenticated,getMyPosts)
+
 export default postRouter;
